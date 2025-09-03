@@ -1,0 +1,113 @@
+BIRANTE SOUMARE
+Computer Science Student | Aspiring Software Developer | International Mindset
+
+CONTACT INFORMATION
+Email: soumare.birante05@gmail.com
+Phone: +33 6 44 75 60 28
+Location: France (Open to relocation to Asia-Pacific)
+Availability: 3-6 months internship
+
+PROFESSIONAL SUMMARY
+Highly motivated Computer Science and Mathematics double degree student seeking international internship opportunity in software development, backend systems, or automation. Demonstrated ability to rapidly acquire new technical skills through self-directed learning and practical application. Strong international exposure with travel to 10+ countries and active engagement in multicultural environments. Particularly interested in contributing to innovative projects in the Asia-Pacific region (Singapore, Malaysia, Taiwan, Vietnam).
+
+EDUCATION
+Double Bachelor's Degree - Computer Science (L3) & Mathematics (L2)
+Université Paris-Est Créteil, France | 2023 - 2025 (Expected)
+- High School Diploma with Honors (Bac Mention Bien) - 2023
+- Class Representative for 3 consecutive years
+- Strong foundation in algorithms, data structures, and mathematical logic
+- Relevant coursework: Programming, Database Management, Web Development, Discrete Mathematics
+
+TECHNICAL SKILLS
+Programming Languages: Python, JavaScript, SQL, HTML/CSS
+Tools & Technologies: Selenium, Git, API Integration, Web Automation, 3D Design Software
+Areas of Expertise: Backend Development, Automation Scripts, API Development, Mathematical Algorithms
+Current Learning: Cryptography (CryptoHack platform), Quantum Physics concepts
+Development Approach: Self-directed learning with AI assistance, Rapid prototyping, Problem-solving orientation
+
+TECHNICAL PROJECTS
+
+Telegram Bot Marketplace | Python, Telegram API, NowPayments API
+- Developed automated marketplace bot with integrated cryptocurrency payment processing
+- Implemented secure payment gateway using NowPayments API for transaction handling
+- Demonstrated rapid learning ability by mastering new APIs and frameworks independently
+- Applied object-oriented programming principles and error handling best practices
+
+Web Automation Suite | Python, Selenium, Task Automation
+- Created comprehensive Python scripts for email automation and web task automation
+- Reduced manual processing time by 70% through intelligent automation solutions
+- Implemented robust error handling and logging mechanisms
+- Utilized web scraping techniques while respecting robots.txt and rate limits
+
+Community Development Technical Design | 3D Modeling, Technical Drawing, Project Management
+- Designed detailed technical schematics for water well financing projects in Mauritania
+- Created professional house plans and construction documentation using 3D design software
+- Collaborated with international NGOs to deliver technical specifications
+- Demonstrated ability to quickly master new technical tools for social impact
+
+PROFESSIONAL EXPERIENCE
+
+Digital Commerce & Automation | 2022 - 2024
+- Applied automation tools to optimize online resale operations
+- Developed practical understanding of e-commerce workflows and digital marketing
+- Implemented data analysis techniques to identify market trends
+- Self-taught technical skills through real-world business application
+
+Community Engagement Leader | 2020 - Present
+- Active member in local and international development associations
+- Created viral educational content on TikTok demonstrating digital communication skills
+- Bridged technical skills with social impact initiatives
+- Organized fundraising campaigns for Mauritanian development projects
+
+Hospital Internship - CH Manhès | 2019 - 2020
+- Assisted medical staff with patient care and facility maintenance
+- Developed strong interpersonal and service-oriented skills
+- Demonstrated reliability and commitment in professional healthcare environment
+- Learned importance of attention to detail and following protocols
+
+INTERNATIONAL PROFILE & LANGUAGES
+
+Global Exposure:
+- Traveled to 10+ countries: USA, Canada, United Kingdom, Spain, Portugal, Belgium, Turkey, Morocco, Senegal, Mauritania
+- Comfortable working in multicultural teams and adapting to new environments
+- Strong interest in Asian business culture and technology ecosystem
+
+Language Proficiency:
+- French: Native speaker
+- English: Professional proficiency (Strong written communication, Developing oral fluency)
+
+KEY COMPETENCIES & PERSONAL QUALITIES
+
+Technical Competencies:
+- Problem-solving and analytical thinking
+- Quick learner with strong adaptation skills
+- Self-directed learning methodology
+- Project management and planning
+- Technical documentation writing
+
+Soft Skills:
+- Strong work ethic and discipline (Maintain 5x/week running schedule)
+- Creative mindset (Painting hobby, Content creation)
+- Excellent time management and organization
+- Team collaboration and communication
+- Entrepreneurial and innovative thinking
+
+CAREER OBJECTIVES
+Seeking 3-6 month international internship in software development, backend systems, or automation engineering. Eager to contribute technical skills while gaining hands-on experience in a multicultural, fast-paced environment. Particularly interested in opportunities within the Asia-Pacific region where I can combine my technical abilities with my international mindset and cultural adaptability.
+
+Target Positions: Software Development Intern, Backend Developer Intern, Automation Engineer Intern, Junior Developer, Technical Assistant
+Target Locations: Singapore, Malaysia, Taiwan, Vietnam, Hong Kong, South Korea, Japan
+Available: Immediate start, Flexible duration (3-6 months), Open to remote or hybrid arrangements
+
+ADDITIONAL INFORMATION
+- Active participant in online coding challenges and cryptography puzzles
+- Passionate about mathematical problem-solving and algorithm optimization
+- Experience with content creation and digital marketing (TikTok viral content)
+- Strong interest in emerging technologies: AI/ML, Blockchain, Quantum Computing
+- Portfolio and code samples available upon request
+
+REFERENCES
+Available upon request
+
+---
+Keywords for ATS: Computer Science, Software Development, Python Developer, JavaScript, SQL, API Integration, Web Automation, Selenium, Git, Backend Development, International Experience, Multilingual, French, English, Asia Pacific, Singapore, Malaysia, Taiwan, Vietnam, Internship, Problem Solving, Team Player, Adaptable, Fast Learner, Mathematics, Algorithms, Data Structures, E-commerce, Digital Marketing, Project Management, Technical Documentation, Agile, Self-directed Learning, Cryptocurrency, Blockchain, Automation Engineer
