@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Birante Soumare — CV</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #0f766e;
+			--text: #111827;
+			--muted: #4b5563;
+			--rule: #e5e7eb;
+			--chip: #e6f4f1;
+		}
+
+		@page {
+			size: A4;
+			margin: 14mm 14mm 14mm 14mm;
+		}
+
+		html, body {
+			padding: 0;
+			margin: 0;
+			color: var(--text);
+			font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+			line-height: 1.35;
+			background: white;
+		}
+
+		.page {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 16px 8px 24px;
+		}
+
+		header {
+			display: grid;
+			grid-template-columns: 1fr auto;
+			gap: 8px 16px;
+			align-items: end;
+			padding-bottom: 8px;
+			border-bottom: 2px solid var(--rule);
+		}
+
+		h1 {
+			font-size: 28px;
+			line-height: 1.1;
+			margin: 0;
+			font-weight: 700;
+		}
+
+		.subtitle {
+			color: var(--muted);
+			font-weight: 500;
+			margin-top: 2px;
+		}
+
+		.contact {
+			text-align: right;
+			font-size: 12px;
+			color: var(--muted);
+		}
+
+		.contact a { color: var(--muted); text-decoration: none; }
+
+		.section {
+			margin-top: 14px;
+		}
+
+		.section h2 {
+			font-size: 13px;
+			letter-spacing: 0.06em;
+			font-weight: 700;
+			color: var(--accent);
+			text-transform: uppercase;
+			margin: 0 0 6px 0;
+		}
+
+		.row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; }
+
+		.item { margin-bottom: 8px; }
+		.item h3 { font-size: 14px; margin: 0 0 2px; }
+		.item .meta { color: var(--muted); font-size: 12px; }
+		.item ul { margin: 4px 0 0 16px; padding: 0; }
+		.item li { margin: 2px 0; }
+
+		.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+		.chip { background: var(--chip); color: var(--accent); padding: 3px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+
+		.small { font-size: 12px; color: var(--muted); }
+
+		hr { border: none; border-top: 1px solid var(--rule); margin: 12px 0; }
+
+		@media print {
+			.page { max-width: none; padding: 0; }
+			.contact a[href]::after { content: ""; }
+			* { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+		}
+	</style>
+</head>
+<body>
+	<main class="page">
+		<header>
+			<div>
+				<h1>Birante Soumare</h1>
+				<div class="subtitle">Computer Science Student (L3) • Aspiring Software Developer</div>
+			</div>
+			<div class="contact">
+				<div><strong>Email</strong> <a href="mailto:soumare.birante05@gmail.com">soumare.birante05@gmail.com</a></div>
+				<div><strong>Phone</strong> +33 6 44 75 60 28</div>
+				<div><strong>Location</strong> France • Open to Asia-Pacific</div>
+			</div>
+		</header>
+
+		<section class="section">
+			<h2>Professional Summary</h2>
+			<div>
+				Computer science L3 student with strong learning agility and hands-on projects in Python automation, web automation (Selenium), and API integrations. Experience applying automation in e-commerce workflows and contributing to community initiatives. Seeking a 3–6 month international internship in software development, automation, or backend systems.
+			</div>
+		</section>
+
+		<section class="section">
+			<h2>Education</h2>
+			<div class="item">
+				<h3>Double Bachelor's Degree — Computer Science (L3) & Mathematics (L2)</h3>
+				<div class="meta">Université Paris-Est Créteil, France • 2023–2025</div>
+				<ul>
+					<li>High School Diploma with Honors (2023)</li>
+					<li>Class Representative for 3 years</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="section">
+			<h2>Technical Skills</h2>
+			<div class="row">
+				<div>
+					<div class="small"><strong>Languages</strong></div>
+					<div class="chips">
+						<span class="chip">Python (foundations)</span>
+						<span class="chip">JavaScript (fundamentals)</span>
+						<span class="chip">SQL (basics)</span>
+					</div>
+				</div>
+				<div>
+					<div class="small"><strong>Tools & APIs</strong></div>
+					<div class="chips">
+						<span class="chip">Selenium</span>
+						<span class="chip">Git</span>
+						<span class="chip">Linux</span>
+						<span class="chip">VS Code</span>
+						<span class="chip">REST</span>
+						<span class="chip">NowPayments</span>
+					</div>
+				</div>
+			</div>
+			<div class="small" style="margin-top:6px;">Interests: Cryptography (CryptoHack), mathematical problem-solving, quantum physics • Learning: Self-directed, AI-assisted</div>
+		</section>
+
+		<section class="section">
+			<h2>Projects</h2>
+			<div class="item">
+				<h3>Telegram Bot with Payment API — Marketplace automation</h3>
+				<ul>
+					<li>Implemented payment flows using the NowPayments API</li>
+					<li>Built bot commands and state handling; validated payment callbacks</li>
+					<li><span class="small">Tech:</span> Python, REST APIs</li>
+				</ul>
+			</div>
+			<div class="item">
+				<h3>Web and Email Automation Scripts</h3>
+				<ul>
+					<li>Automated routine web and email tasks with Python and Selenium</li>
+					<li>Implemented resilient selectors and waits to improve reliability</li>
+					<li><span class="small">Tech:</span> Python, Selenium</li>
+				</ul>
+			</div>
+			<div class="item">
+				<h3>3D Technical Design for Community Projects</h3>
+				<ul>
+					<li>Produced house plans and technical schematics for community initiatives</li>
+					<li>Rapidly acquired 3D design skills to meet project requirements</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="section">
+			<h2>Experience</h2>
+			<div class="item">
+				<h3>Digital Commerce</h3>
+				<div class="meta">2022–2024</div>
+				<ul>
+					<li>Applied automation tools to support online resale operations</li>
+					<li>Developed practical understanding of marketplace and e-commerce workflows</li>
+				</ul>
+			</div>
+			<div class="item">
+				<h3>Early Internship — CH Manhès</h3>
+				<div class="meta">2019–2020</div>
+				<ul>
+					<li>Assisted patients and supported facility operations in a hospital setting</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="section">
+			<h2>Leadership & Community</h2>
+			<ul>
+				<li>Active member of local and Mauritanian development associations</li>
+				<li>Produced schematics for water well financing projects</li>
+				<li>Content creation: Educational TikTok videos with viral engagement</li>
+			</ul>
+		</section>
+
+		<section class="section">
+			<h2>International & Languages</h2>
+			<div class="row">
+				<div>
+					<div class="small"><strong>International</strong></div>
+					<div>Travel to 10+ countries: USA, Canada, UK, Spain, Portugal, Belgium, Turkey, Morocco, Senegal, Mauritania</div>
+				</div>
+				<div>
+					<div class="small"><strong>Languages</strong></div>
+					<div>French: Native • English: Strong written, developing oral</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<h2>Additional</h2>
+			<ul>
+				<li>Disciplined runner (5x/week); painting hobby</li>
+				<li>Availability: 3–6 month internship; internationally mobile (Singapore, Malaysia, Taiwan, Vietnam)</li>
+			</ul>
+		</section>
+	</main>
+</body>
+</html>
