@@ -9,10 +9,12 @@
     :root { --bg:#0f172a; --card:#111827; --muted:#94a3b8; --text:#e5e7eb; --accent:#60a5fa; --chip:#1f2937; }
     *{box-sizing:border-box} html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
     .container{max-width:980px;margin:40px auto;padding:0 24px}
-    .header{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:end}
+    .header{display:grid;grid-template-columns:auto 1fr auto;gap:16px;align-items:end}
     .name{font-size:36px;font-weight:800;letter-spacing:.3px}
     .role{font-size:16px;color:var(--muted);margin-top:4px}
     .contact{text-align:right;font-size:14px;color:var(--muted)} .contact a{color:var(--text);text-decoration:none}
+    .avatar{width:84px;height:84px;border-radius:50%;background:#0b1220;border:1px solid #273449;overflow:hidden}
+    .avatar img{width:100%;height:100%;object-fit:cover;display:block}
     .section{background:var(--card);border:1px solid #1f2937;border-radius:14px;padding:20px;margin-top:18px}
     .section h2{margin:0 0 12px;font-size:15px;color:var(--accent);letter-spacing:.6px;text-transform:uppercase}
     .list{margin:8px 0 0;padding-left:18px} .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--chip);color:var(--text);font-size:12px;margin:4px 6px 0 0;border:1px solid #273449}
@@ -26,6 +28,7 @@
 <body>
   <div class="container">
     <header class="header">
+      <div class="avatar"></div>
       <div>
         <div class="name">Birante Soumare</div>
         <div class="role">Backend (stage)</div>
