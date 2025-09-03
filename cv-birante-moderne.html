@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birante Soumare - Software Developer</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 10.5pt;
+            line-height: 1.5;
+            color: #2d3748;
+            background: white;
+        }
+        
+        .cv-container {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            background: white;
+        }
+        
+        /* Header moderne avec accent de couleur */
+        .header {
+            background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+            color: white;
+            padding: 30mm 20mm 20mm;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 300mm;
+            height: 300mm;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+        
+        .header-content {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            align-items: center;
+            gap: 20mm;
+        }
+        
+        .photo-container {
+            width: 35mm;
+            height: 35mm;
+            background: white;
+            border-radius: 50%;
+            padding: 2mm;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .photo-space {
+            width: 100%;
+            height: 100%;
+            background: #e2e8f0;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #64748b;
+            font-size: 9pt;
+        }
+        
+        h1 {
+            font-size: 28pt;
+            font-weight: 700;
+            margin-bottom: 5mm;
+            letter-spacing: -0.5mm;
+        }
+        
+        .subtitle {
+            font-size: 14pt;
+            font-weight: 300;
+            opacity: 0.9;
+            margin-bottom: 8mm;
+        }
+        
+        .contact-bar {
+            display: flex;
+            gap: 15mm;
+            font-size: 10pt;
+            opacity: 0.8;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 2mm;
+        }
+        
+        /* Main content avec layout moderne */
+        .main-content {
+            padding: 15mm 20mm;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20mm;
+        }
+        
+        /* Sections avec design moderne */
+        .section {
+            margin-bottom: 15mm;
+        }
+        
+        h2 {
+            font-size: 13pt;
+            font-weight: 700;
+            color: #1a202c;
+            margin-bottom: 8mm;
+            position: relative;
+            padding-left: 10mm;
+        }
+        
+        h2::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 5mm;
+            height: 5mm;
+            background: #3b82f6;
+            border-radius: 1mm;
+        }
+        
+        /* Skills avec design moderne */
+        .skills-container {
+            display: flex;
+            flex-direction: column;
+            gap: 8mm;
+        }
+        
+        .skill-category {
+            background: #f8fafc;
+            padding: 8mm;
+            border-radius: 4mm;
+            border-left: 3mm solid #3b82f6;
+        }
+        
+        .skill-category h3 {
+            font-size: 11pt;
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 4mm;
+        }
+        
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 3mm;
+        }
+        
+        .skill-tag {
+            background: #e0e7ff;
+            color: #3730a3;
+            padding: 2mm 6mm;
+            border-radius: 3mm;
+            font-size: 9pt;
+            font-weight: 500;
+        }
+        
+        /* Projects avec cards modernes */
+        .project-card {
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 4mm;
+            padding: 10mm;
+            margin-bottom: 8mm;
+            transition: box-shadow 0.2s;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 4mm;
+        }
+        
+        .project-title {
+            font-size: 11pt;
+            font-weight: 600;
+            color: #1e293b;
+        }
+        
+        .project-tech {
+            font-size: 8pt;
+            color: #64748b;
+            font-style: italic;
+        }
+        
+        .project-description {
+            font-size: 9.5pt;
+            color: #475569;
+            line-height: 1.6;
+        }
+        
+        /* Experience timeline */
+        .timeline-item {
+            position: relative;
+            padding-left: 15mm;
+            margin-bottom: 12mm;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 3mm;
+            top: 2mm;
+            width: 4mm;
+            height: 4mm;
+            background: #3b82f6;
+            border-radius: 50%;
+        }
+        
+        .timeline-item::after {
+            content: '';
+            position: absolute;
+            left: 4.5mm;
+            top: 8mm;
+            width: 1mm;
+            height: calc(100% + 8mm);
+            background: #e5e7eb;
+        }
+        
+        .timeline-item:last-child::after {
+            display: none;
+        }
+        
+        .timeline-date {
+            font-size: 9pt;
+            color: #6b7280;
+            font-weight: 600;
+            margin-bottom: 2mm;
+        }
+        
+        .timeline-title {
+            font-size: 11pt;
+            font-weight: 600;
+            color: #1e293b;
+            margin-bottom: 2mm;
+        }
+        
+        .timeline-description {
+            font-size: 9.5pt;
+            color: #475569;
+        }
+        
+        /* International section avec visual */
+        .international-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8mm;
+            margin-top: 5mm;
+        }
+        
+        .stat-card {
+            background: #f0f9ff;
+            padding: 8mm;
+            border-radius: 4mm;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 24pt;
+            font-weight: 700;
+            color: #0369a1;
+            line-height: 1;
+        }
+        
+        .stat-label {
+            font-size: 9pt;
+            color: #64748b;
+            margin-top: 2mm;
+        }
+        
+        /* Objectif avec style moderne */
+        .objective-box {
+            background: linear-gradient(135deg, #dbeafe 0%, #e0e7ff 100%);
+            padding: 12mm;
+            border-radius: 4mm;
+            margin-bottom: 15mm;
+            border-left: 4mm solid #3b82f6;
+        }
+        
+        .objective-text {
+            font-size: 10.5pt;
+            color: #1e293b;
+            line-height: 1.7;
+        }
+        
+        /* Languages avec progress bars */
+        .language-item {
+            margin-bottom: 8mm;
+        }
+        
+        .language-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3mm;
+        }
+        
+        .language-name {
+            font-weight: 600;
+            color: #1e293b;
+        }
+        
+        .language-level {
+            font-size: 9pt;
+            color: #64748b;
+        }
+        
+        .language-bar {
+            height: 4mm;
+            background: #e5e7eb;
+            border-radius: 2mm;
+            overflow: hidden;
+        }
+        
+        .language-progress {
+            height: 100%;
+            background: #3b82f6;
+            border-radius: 2mm;
+        }
+        
+        /* Interests avec icones conceptuelles */
+        .interests-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5mm;
+        }
+        
+        .interest-item {
+            display: flex;
+            align-items: center;
+            gap: 3mm;
+            font-size: 9pt;
+            color: #475569;
+        }
+        
+        .interest-icon {
+            width: 6mm;
+            height: 6mm;
+            background: #e0e7ff;
+            border-radius: 2mm;
+            flex-shrink: 0;
+        }
+        
+        /* Footer moderne */
+        .footer {
+            background: #f8fafc;
+            padding: 10mm 20mm;
+            text-align: center;
+            font-size: 9pt;
+            color: #64748b;
+            border-top: 1px solid #e5e7eb;
+        }
+        
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            .project-card {
+                break-inside: avoid;
+            }
+            
+            .timeline-item {
+                break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <!-- Header moderne -->
+        <header class="header">
+            <div class="header-content">
+                <div>
+                    <h1>Birante Soumare</h1>
+                    <p class="subtitle">Computer Science Student & Aspiring Developer</p>
+                    <div class="contact-bar">
+                        <span class="contact-item">soumare.birante05@gmail.com</span>
+                        <span class="contact-item">+33 6 44 75 60 28</span>
+                        <span class="contact-item">Open to International Opportunities</span>
+                    </div>
+                </div>
+                <div class="photo-container">
+                    <div class="photo-space">Photo</div>
+                </div>
+            </div>
+        </header>
+        
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Left Column -->
+            <div class="left-content">
+                <!-- Objective -->
+                <div class="objective-box">
+                    <p class="objective-text">
+                        <strong>Seeking International Internship (3-6 months)</strong><br>
+                        Double degree student in Computer Science & Mathematics looking for opportunities in software development, 
+                        automation, or backend systems. Particularly interested in Asia-Pacific region (Singapore, Malaysia, Taiwan, Vietnam). 
+                        Fast learner with entrepreneurial mindset and proven ability to quickly adapt to new technologies.
+                    </p>
+                </div>
+                
+                <!-- Technical Projects -->
+                <section class="section">
+                    <h2>Technical Projects</h2>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Telegram Bot Marketplace</h3>
+                            <span class="project-tech">Python • Telegram API • NowPayments</span>
+                        </div>
+                        <p class="project-description">
+                            Developed automated marketplace bot with integrated cryptocurrency payment processing. 
+                            Demonstrated rapid learning ability through AI-assisted development approach.
+                        </p>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Web Automation Suite</h3>
+                            <span class="project-tech">Python • Selenium • Task Automation</span>
+                        </div>
+                        <p class="project-description">
+                            Created Python scripts for email and web automation, reducing manual processing time by 70%. 
+                            Applied practical problem-solving to real-world efficiency challenges.
+                        </p>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">3D Technical Design</h3>
+                            <span class="project-tech">3D Modeling • Project Management</span>
+                        </div>
+                        <p class="project-description">
+                            Designed technical schematics for water well projects in Mauritania. 
+                            Created detailed house plans demonstrating quick mastery of new technical tools.
+                        </p>
+                    </div>
+                </section>
+                
+                <!-- Experience -->
+                <section class="section">
+                    <h2>Experience</h2>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2022 - 2024</div>
+                        <div class="timeline-title">Digital Commerce & Automation</div>
+                        <div class="timeline-description">
+                            Applied automation tools to optimize online operations. Developed practical understanding 
+                            of e-commerce workflows and self-taught technical skills through real-world application.
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020 - Present</div>
+                        <div class="timeline-title">Community Engagement Leader</div>
+                        <div class="timeline-description">
+                            Active in local and international development associations. Created viral educational 
+                            content on TikTok, bridging technical skills with social impact initiatives.
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2019 - 2020</div>
+                        <div class="timeline-title">Hospital Internship - CH Manhès</div>
+                        <div class="timeline-description">
+                            Developed strong interpersonal skills and demonstrated reliability in professional environment.
+                        </div>
+                    </div>
+                </section>
+            </div>
+            
+            <!-- Right Column -->
+            <div class="right-content">
+                <!-- Education -->
+                <section class="section">
+                    <h2>Education</h2>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023 - 2025</div>
+                        <div class="timeline-title">Double Bachelor's Degree</div>
+                        <div class="timeline-description">
+                            Computer Science (L3) & Mathematics (L2)<br>
+                            Université Paris-Est Créteil<br>
+                            • High School Diploma with Honors (2023)<br>
+                            • Class Representative for 3 years
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Technical Skills -->
+                <section class="section">
+                    <h2>Technical Skills</h2>
+                    <div class="skills-container">
+                        <div class="skill-category">
+                            <h3>Programming & Tools</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">SQL</span>
+                                <span class="skill-tag">HTML/CSS</span>
+                                <span class="skill-tag">Selenium</span>
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">API Integration</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h3>Areas of Interest</h3>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Cryptography</span>
+                                <span class="skill-tag">Backend Development</span>
+                                <span class="skill-tag">Automation</span>
+                                <span class="skill-tag">Mathematical Algorithms</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- International Profile -->
+                <section class="section">
+                    <h2>International Profile</h2>
+                    <div class="international-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Countries Visited</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">4</div>
+                            <div class="stat-label">Continents Explored</div>
+                        </div>
+                    </div>
+                    <p style="margin-top: 8mm; font-size: 9pt; color: #64748b;">
+                        USA • Canada • UK • Spain • Portugal • Belgium • Turkey • Morocco • Senegal • Mauritania
+                    </p>
+                </section>
+                
+                <!-- Languages -->
+                <section class="section">
+                    <h2>Languages</h2>
+                    <div class="language-item">
+                        <div class="language-header">
+                            <span class="language-name">French</span>
+                            <span class="language-level">Native</span>
+                        </div>
+                        <div class="language-bar">
+                            <div class="language-progress" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-header">
+                            <span class="language-name">English</span>
+                            <span class="language-level">Professional (Written) • Developing (Oral)</span>
+                        </div>
+                        <div class="language-bar">
+                            <div class="language-progress" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                </section>
+                
+                <!-- Personal Interests -->
+                <section class="section">
+                    <h2>Personal Interests</h2>
+                    <div class="interests-grid">
+                        <div class="interest-item">
+                            <div class="interest-icon"></div>
+                            <span>Cryptography (CryptoHack)</span>
+                        </div>
+                        <div class="interest-item">
+                            <div class="interest-icon"></div>
+                            <span>Mathematical Problems</span>
+                        </div>
+                        <div class="interest-item">
+                            <div class="interest-icon"></div>
+                            <span>Running (5x/week)</span>
+                        </div>
+                        <div class="interest-item">
+                            <div class="interest-icon"></div>
+                            <span>Painting & Art</span>
+                        </div>
+                        <div class="interest-item">
+                            <div class="interest-icon"></div>
+                            <span>Content Creation</span>
+                        </div>
+                        <div class="interest-item">
+                            <div class="interest-icon"></div>
+                            <span>Quantum Physics</span>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Fast learner • Adaptable • Self-directed • Ready to contribute to your international team</p>
+        </footer>
+    </div>
+</body>
+</html>
