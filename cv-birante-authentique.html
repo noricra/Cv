@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birante Soumare - CV</title>
+    <style>
+        /* Format A4 pour PDF */
+        @page {
+            size: A4;
+            margin: 0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            font-size: 11pt;
+            line-height: 1.4;
+            color: #333;
+            background: white;
+        }
+        
+        .cv-container {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            background: white;
+            display: grid;
+            grid-template-columns: 70mm 140mm;
+        }
+        
+        /* Colonne gauche */
+        .left-column {
+            background-color: #f5f5f5;
+            padding: 20mm 10mm;
+        }
+        
+        /* Espace photo */
+        .photo-space {
+            width: 50mm;
+            height: 50mm;
+            background-color: #ddd;
+            margin: 0 auto 15mm auto;
+            border: 2px solid #999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-size: 10pt;
+            text-align: center;
+        }
+        
+        /* Colonne droite */
+        .right-column {
+            padding: 20mm 15mm 20mm 10mm;
+        }
+        
+        /* Nom et titre */
+        .header-name {
+            margin-bottom: 20mm;
+        }
+        
+        h1 {
+            font-size: 24pt;
+            color: #2c3e50;
+            font-weight: bold;
+            margin-bottom: 5mm;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .subtitle {
+            font-size: 14pt;
+            color: #666;
+            margin-bottom: 3mm;
+        }
+        
+        /* Sections */
+        h2 {
+            font-size: 12pt;
+            color: #2c3e50;
+            text-transform: uppercase;
+            margin-bottom: 5mm;
+            margin-top: 10mm;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 2mm;
+        }
+        
+        h3 {
+            font-size: 11pt;
+            font-weight: bold;
+            margin-bottom: 2mm;
+            margin-top: 5mm;
+            color: #444;
+        }
+        
+        /* Contact */
+        .contact-section {
+            margin-bottom: 15mm;
+        }
+        
+        .contact-item {
+            margin-bottom: 3mm;
+            font-size: 10pt;
+            color: #555;
+        }
+        
+        /* Compétences */
+        .skill-category {
+            margin-bottom: 8mm;
+        }
+        
+        .skill-category h4 {
+            font-size: 10pt;
+            font-weight: bold;
+            margin-bottom: 3mm;
+            color: #2c3e50;
+        }
+        
+        .skill-item {
+            font-size: 9pt;
+            margin-bottom: 2mm;
+            padding-left: 5mm;
+            color: #555;
+        }
+        
+        /* Langues */
+        .language-item {
+            margin-bottom: 3mm;
+            font-size: 10pt;
+        }
+        
+        .language-level {
+            color: #666;
+            font-style: italic;
+        }
+        
+        /* Expériences et projets */
+        .experience-item, .project-item {
+            margin-bottom: 8mm;
+        }
+        
+        .date {
+            font-size: 10pt;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 2mm;
+        }
+        
+        .description {
+            font-size: 10pt;
+            color: #555;
+            margin-bottom: 2mm;
+            padding-left: 5mm;
+        }
+        
+        ul {
+            margin-left: 5mm;
+            margin-bottom: 3mm;
+        }
+        
+        li {
+            font-size: 10pt;
+            margin-bottom: 2mm;
+            color: #555;
+        }
+        
+        /* Intérêts */
+        .interests {
+            font-size: 10pt;
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        /* Objectif */
+        .objective {
+            background-color: #f0f0f0;
+            padding: 5mm;
+            margin-bottom: 10mm;
+            border-left: 3px solid #2c3e50;
+            font-size: 10pt;
+            line-height: 1.5;
+        }
+        
+        /* Print specific */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            .cv-container {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <!-- Colonne gauche -->
+        <div class="left-column">
+            <!-- Espace photo -->
+            <div class="photo-space">
+                Photo
+            </div>
+            
+            <!-- Contact -->
+            <div class="contact-section">
+                <h2>Contact</h2>
+                <div class="contact-item">📧 soumare.birante05@gmail.com</div>
+                <div class="contact-item">📱 +33 6 44 75 60 28</div>
+                <div class="contact-item">📍 France</div>
+                <div class="contact-item">🌐 Mobilité internationale</div>
+            </div>
+            
+            <!-- Compétences techniques -->
+            <div>
+                <h2>Compétences</h2>
+                
+                <div class="skill-category">
+                    <h4>Langages</h4>
+                    <div class="skill-item">• Python (bases)</div>
+                    <div class="skill-item">• JavaScript (fondamentaux)</div>
+                    <div class="skill-item">• SQL (bases)</div>
+                    <div class="skill-item">• HTML/CSS</div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Outils</h4>
+                    <div class="skill-item">• Selenium</div>
+                    <div class="skill-item">• Git (notions)</div>
+                    <div class="skill-item">• API (intégration)</div>
+                    <div class="skill-item">• Conception 3D</div>
+                </div>
+                
+                <div class="skill-category">
+                    <h4>Méthode d'apprentissage</h4>
+                    <div class="skill-item">• Autodidacte avec IA</div>
+                    <div class="skill-item">• Apprentissage rapide</div>
+                </div>
+            </div>
+            
+            <!-- Langues -->
+            <div>
+                <h2>Langues</h2>
+                <div class="language-item">
+                    <strong>Français</strong>
+                    <span class="language-level">Natif</span>
+                </div>
+                <div class="language-item">
+                    <strong>Anglais</strong>
+                    <span class="language-level">Écrit avancé, oral en développement</span>
+                </div>
+            </div>
+            
+            <!-- Centres d'intérêt -->
+            <div>
+                <h2>Centres d'intérêt</h2>
+                <div class="interests">
+                    • Cryptographie (CryptoHack)<br>
+                    • Problèmes mathématiques<br>
+                    • Physique quantique<br>
+                    • Course à pied (5x/semaine)<br>
+                    • Peinture<br>
+                    • Création de contenu (TikTok viral)
+                </div>
+            </div>
+        </div>
+        
+        <!-- Colonne droite -->
+        <div class="right-column">
+            <!-- En-tête -->
+            <div class="header-name">
+                <h1>Birante Soumare</h1>
+                <div class="subtitle">Étudiant en Informatique | Développeur en devenir</div>
+                <div class="subtitle">Recherche stage L3 à l'international (3-6 mois)</div>
+            </div>
+            
+            <!-- Objectif -->
+            <div class="objective">
+                <strong>Objectif :</strong> Étudiant en double licence Informatique et Mathématiques, je recherche un stage de 3 à 6 mois dans le développement logiciel, l'automatisation ou les systèmes backend. Particulièrement intéressé par l'Asie-Pacifique (Singapour, Malaisie, Taiwan, Vietnam), je souhaite développer mes compétences techniques dans un environnement multiculturel.
+            </div>
+            
+            <!-- Formation -->
+            <div>
+                <h2>Formation</h2>
+                <h3>Double Licence - Informatique (L3) & Mathématiques (L2)</h3>
+                <div class="date">2023 - 2025 | Université Paris-Est Créteil</div>
+                <ul>
+                    <li>Baccalauréat Mention Bien (2023)</li>
+                    <li>Délégué de classe pendant 3 ans</li>
+                </ul>
+            </div>
+            
+            <!-- Projets techniques -->
+            <div>
+                <h2>Projets Techniques</h2>
+                
+                <div class="project-item">
+                    <h3>Bot Telegram avec API de paiement</h3>
+                    <div class="date">Python | API Telegram | NowPayments</div>
+                    <div class="description">Bot marketplace avec intégration de paiements (apprentissage assisté par IA)</div>
+                </div>
+                
+                <div class="project-item">
+                    <h3>Scripts d'automatisation</h3>
+                    <div class="date">Python | Selenium</div>
+                    <div class="description">Scripts pour automatisation d'emails et de tâches web</div>
+                </div>
+                
+                <div class="project-item">
+                    <h3>Conception technique 3D</h3>
+                    <div class="date">Modélisation 3D</div>
+                    <div class="description">Plans de maisons et schémas pour projets communautaires (acquisition rapide de compétences)</div>
+                </div>
+            </div>
+            
+            <!-- Expériences -->
+            <div>
+                <h2>Expériences</h2>
+                
+                <div class="experience-item">
+                    <h3>Commerce digital</h3>
+                    <div class="date">2022 - 2024</div>
+                    <ul>
+                        <li>Application d'outils d'automatisation aux opérations de revente en ligne</li>
+                        <li>Connaissance pratique des workflows e-commerce</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <h3>Engagement communautaire</h3>
+                    <div class="date">2020 - Présent</div>
+                    <ul>
+                        <li>Conception de schémas pour projets de financement de puits en Mauritanie</li>
+                        <li>Membre actif d'associations locales et internationales</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item">
+                    <h3>Stage précoce - CH Manhès</h3>
+                    <div class="date">2019 - 2020</div>
+                    <div class="description">Assistance aux patients et entretien des installations</div>
+                </div>
+            </div>
+            
+            <!-- International -->
+            <div>
+                <h2>Profil International</h2>
+                <p style="font-size: 10pt; color: #555;">
+                    <strong>10+ pays visités :</strong> États-Unis, Canada, Royaume-Uni, Espagne, Portugal, Belgique, Turquie, Maroc, Sénégal, Mauritanie<br>
+                    <strong>Atouts :</strong> Adaptabilité, ouverture culturelle, apprentissage rapide, discipline personnelle
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
