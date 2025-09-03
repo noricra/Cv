@@ -3,7 +3,7 @@ BIRANTE SOUMARÉ
 Email : soumare.birante05@gmail.com | Téléphone : +33 6 44 75 60 28 | Localisation : France | Ouvert à l'international (Asie-Pacifique)
 
 RÉSUMÉ PROFESSIONNEL
-Étudiant en L3 informatique avec une forte capacité d'apprentissage et des projets concrets en automatisation Python, automatisation web (Selenium) et intégration d'API. Expérience de l'automatisation appliquée aux workflows e-commerce et engagement dans des initiatives communautaires. À la recherche d'un stage international de 3 à 6 mois en développement logiciel, automatisation ou back-end.
+Étudiant en L3 informatique avec une forte capacité d'apprentissage et des projets concrets en automatisation Python et automatisation web (Selenium). Expérience de l'automatisation appliquée aux workflows e-commerce et engagement dans des initiatives communautaires. À la recherche d'un stage international de 3 à 6 mois en développement logiciel, automatisation ou back-end.
 
 FORMATION
 Double Licence — Informatique (L3) & Mathématiques (L2) | 2023–2025
@@ -13,21 +13,17 @@ Université Paris-Est Créteil, France
 
 COMPÉTENCES TECHNIQUES
 - Langages : Python (bases), JavaScript (fondamentaux), SQL (bases)
-- Outils : Selenium, Git, Linux, VS Code
-- APIs : REST, NowPayments
+- Outils : Selenium
 - Intérêts : Cryptographie (CryptoHack), résolution de problèmes mathématiques, physique quantique
 - Méthode d'apprentissage : autodidacte, assistée par IA
 
 PROJETS
 Bot Telegram avec API de paiement — Automatisation de marketplace
-- Implémentation de flux de paiement via l'API NowPayments
-- Commandes du bot et gestion d'état ; validation des callbacks de paiement
-- Tech : Python, APIs REST
+- Bot de marketplace avec intégration NowPayments (apprentissage assisté par IA)
 
 Scripts d'automatisation Web et Email
 - Automatisation de tâches web et email avec Python et Selenium
 - Sélecteurs et attentes robustes pour la fiabilité
-- Tech : Python, Selenium
 
 Conception Technique 3D pour Projets Communautaires
 - Plans de maison et schémas techniques pour initiatives communautaires

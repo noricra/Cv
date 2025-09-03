@@ -58,6 +58,10 @@
 			margin-top: 2px;
 		}
 
+		.right { display: grid; grid-template-rows: auto auto; justify-items: end; gap: 8px; }
+		.avatar { width: 84px; height: 84px; border-radius: 999px; background: #f3f4f6; border: 2px dashed var(--rule); color: var(--muted); display: grid; place-items: center; font-size: 11px; font-weight: 600; overflow: hidden; }
+		.avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
 		.contact {
 			text-align: right;
 			font-size: 12px;
@@ -108,10 +112,16 @@
 				<h1>Birante Soumaré</h1>
 				<div class="subtitle">Étudiant en Informatique (L3) • Développeur en devenir</div>
 			</div>
-			<div class="contact">
-				<div><strong>Email</strong> <a href="mailto:soumare.birante05@gmail.com">soumare.birante05@gmail.com</a></div>
-				<div><strong>Téléphone</strong> +33 6 44 75 60 28</div>
-				<div><strong>Localisation</strong> France • Ouvert à l'Asie-Pacifique</div>
+			<div class="right">
+				<figure class="avatar" aria-label="Photo">
+					<!-- Remplacez ce placeholder par votre photo : <img src="img/photo.jpg" alt="Portrait de Birante Soumaré" /> -->
+					PHOTO
+				</figure>
+				<div class="contact">
+					<div><strong>Email</strong> <a href="mailto:soumare.birante05@gmail.com">soumare.birante05@gmail.com</a></div>
+					<div><strong>Téléphone</strong> +33 6 44 75 60 28</div>
+					<div><strong>Localisation</strong> France • Ouvert à l'Asie-Pacifique</div>
+				</div>
 			</div>
 		</header>
 
@@ -146,14 +156,9 @@
 					</div>
 				</div>
 				<div>
-					<div class="small"><strong>Outils & APIs</strong></div>
+					<div class="small"><strong>Outils</strong></div>
 					<div class="chips">
 						<span class="chip">Selenium</span>
-						<span class="chip">Git</span>
-						<span class="chip">Linux</span>
-						<span class="chip">VS Code</span>
-						<span class="chip">REST</span>
-						<span class="chip">NowPayments</span>
 					</div>
 				</div>
 			</div>
@@ -167,7 +172,6 @@
 				<ul>
 					<li>Flux de paiement intégrés via l'API NowPayments</li>
 					<li>Commandes du bot et gestion d'état ; validation des callbacks</li>
-					<li><span class="small">Tech :</span> Python, APIs REST</li>
 				</ul>
 			</div>
 			<div class="item">
@@ -175,7 +179,6 @@
 				<ul>
 					<li>Automatisation de tâches web et email avec Python et Selenium</li>
 					<li>Sélecteurs robustes et attentes explicites pour fiabilité</li>
-					<li><span class="small">Tech :</span> Python, Selenium</li>
 				</ul>
 			</div>
 			<div class="item">

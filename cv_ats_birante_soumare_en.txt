@@ -3,7 +3,7 @@ Computer Science Student (L3) | Aspiring Software Developer | Fast Learner
 Email: soumare.birante05@gmail.com | Phone: +33 6 44 75 60 28 | Location: France | Open to Asia-Pacific relocation
 
 PROFESSIONAL SUMMARY
-Computer science L3 student with strong learning agility and hands-on projects in Python automation, web automation (Selenium), and API integrations. Experience applying automation in e-commerce workflows and contributing to community initiatives. Seeking a 3–6 month international internship in software development, automation, or backend systems.
+Computer science L3 student with strong learning agility and hands-on projects in Python automation and web automation (Selenium). Experience applying automation in e-commerce workflows and contributing to community initiatives. Seeking a 3–6 month international internship in software development, automation, or backend systems.
 
 EDUCATION
 Double Bachelor's Degree — Computer Science (L3) & Mathematics (L2) | 2023–2025
@@ -13,21 +13,17 @@ Université Paris-Est Créteil, France
 
 TECHNICAL SKILLS
 - Languages: Python (foundations), JavaScript (fundamentals), SQL (basics)
-- Tools: Selenium, Git, Linux, VS Code
-- APIs: REST, NowPayments
+- Tools: Selenium
 - Interests: Cryptography (CryptoHack), mathematical problem-solving, quantum physics
 - Learning: Self-directed, AI-assisted learning workflow
 
 PROJECTS
 Telegram Bot with Payment API — Marketplace automation
-- Implemented payment flows using the NowPayments API
-- Built bot commands and state handling; validated payment callbacks
-- Tech: Python, REST APIs
+- Marketplace bot with NowPayments integration (AI-assisted learning)
 
 Web and Email Automation Scripts
 - Automated routine web and email tasks with Python and Selenium
 - Implemented resilient selectors and waits to improve reliability
-- Tech: Python, Selenium
 
 3D Technical Design for Community Projects
 - Produced house plans and technical schematics for community initiatives
