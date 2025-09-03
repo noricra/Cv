@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CV — Birante Soumare — Backend</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    :root { --bg:#0f172a; --card:#111827; --muted:#94a3b8; --text:#e5e7eb; --accent:#60a5fa; --chip:#1f2937; }
+    *{box-sizing:border-box} html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    .container{max-width:980px;margin:40px auto;padding:0 24px}
+    .header{display:grid;grid-template-columns:1fr auto;gap:16px;align-items:end}
+    .name{font-size:36px;font-weight:800;letter-spacing:.3px}
+    .role{font-size:16px;color:var(--muted);margin-top:4px}
+    .contact{text-align:right;font-size:14px;color:var(--muted)} .contact a{color:var(--text);text-decoration:none}
+    .section{background:var(--card);border:1px solid #1f2937;border-radius:14px;padding:20px;margin-top:18px}
+    .section h2{margin:0 0 12px;font-size:15px;color:var(--accent);letter-spacing:.6px;text-transform:uppercase}
+    .list{margin:8px 0 0;padding-left:18px} .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--chip);color:var(--text);font-size:12px;margin:4px 6px 0 0;border:1px solid #273449}
+    .small{font-size:13px}
+    @media print{body{background:#fff}.section{border-color:#e5e7eb}.pill{background:#f3f4f6;color:#111827;border-color:#e5e7eb}}
+    @media (max-width:780px){.header{grid-template-columns:1fr}.contact{text-align:left}}
+  </style>
+  <meta name="description" content="CV Backend de Birante Soumare — APIs REST, Python, SQL." />
+  <meta name="keywords" content="Backend, API, REST, HTTP, JSON, Python, SQL, Testing, Git" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div>
+        <div class="name">Birante Soumare</div>
+        <div class="role">Backend (stage)</div>
+      </div>
+      <div class="contact">
+        <div><a href="mailto:soumare.birante05@gmail.com">soumare.birante05@gmail.com</a></div>
+        <div>+33 6 44 75 60 28</div>
+        <div>France > Asie-Pacifique</div>
+      </div>
+    </header>
+
+    <section class="section">
+      <h2>Objectif</h2>
+      <div class="small">Stage de 3 a 6 mois pour contribuer a des APIs fiables, documentees et testeess.</div>
+    </section>
+
+    <section class="section">
+      <h2>Projets</h2>
+      <ul class="list small">
+        <li>Telegram Bot + Payment API — integration NowPayments pour une marketplace (tokens, flux de paiement)</li>
+        <li>Scripts Python/Selenium — automatisation web et gestion de donnees</li>
+        <li>Conception 3D — modelisation de schemas techniques (contraintes et rigueur)</li>
+      </ul>
+      <div style="margin-top:10px">
+        <span class="pill">Python</span><span class="pill">REST</span><span class="pill">HTTP</span><span class="pill">JSON</span><span class="pill">SQL</span><span class="pill">Logging</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Formation</h2>
+      <div class="small">Double Licence — Informatique (L3) et Mathematiques (L2) | 2023-2025 — Universite Paris-Est Creteil</div>
+    </section>
+
+    <section class="section">
+      <h2>Competences</h2>
+      <ul class="list small">
+        <li>Langages: Python (bases), JavaScript (notions), SQL (bases)</li>
+        <li>Concepts: APIs REST, HTTP, JSON, authentification basique, parsing, logging</li>
+        <li>Donnees: modelisation relationnelle simple, requetes SQL</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Experience</h2>
+      <ul class="list small">
+        <li>E-commerce — comprehension des flux et contraintes metier (2022-2024)</li>
+        <li>Stage hospitalier — fiabilite et exigences de securite (2019-2020)</li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
+

@@ -1,39 +1,40 @@
 BIRANTE SOUMARE
-Computer Science Student | Aspiring Developer
-Email: soumare.birante05@gmail.com | Tel: +33 6 44 75 60 28 | Location: France → Asia-Pacific
+Etudiant en informatique | Developpeur en devenir
+Email: soumare.birante05@gmail.com | Tel: +33 6 44 75 60 28 | Localisation: France > Asie-Pacifique
 
 OBJECTIF
-Seeking 3-6 month international internship to develop technical skills in multicultural environment. Target: Software Development & Automation. Regions: Singapore, Malaysia, Taiwan, Vietnam.
+Recherche un stage international de 3 a 6 mois pour developper des competences techniques dans un environnement multiculturel.
+Cibles: developpement logiciel et automatisation. Regions: Singapour, Malaisie, Taiwan, Vietnam.
 
 FORMATION
-Double Bachelor's Degree - Computer Science (L3) & Mathematics (L2) | 2023-2025
-Université Paris-Est Créteil • Bac Mention Bien (2023) • Class Representative 3 years
+Double Licence - Informatique (L3) et Mathematiques (L2) | 2023-2025
+Universite Paris-Est Creteil | Baccalaureat Mention Bien (2023) | Delegue de classe pendant 3 ans
 
 PROJETS TECHNIQUES
-- Telegram Bot with Payment API — Marketplace bot with Nowpayments integration (AI-assisted learning)
-- Automation Scripts — Python/Selenium scripts for email and web automation
-- 3D Technical Design — House plans and community project schematics (rapid skill acquisition)
+- Telegram Bot avec Payment API - Bot marketplace avec integration NowPayments (apprentissage assiste par IA)
+- Scripts d'automatisation - Python/Selenium pour emails et automatisation web
+- Conception technique 3D - Plans de maison et schemas pour projets communautaires (montee en competence rapide)
 
-BASE TECHNIQUE
+COMPETENCES TECHNIQUES
 - Python (bases), JavaScript (notions), SQL (bases), Selenium
-- API integration: NowPayments • Telegram Bot
-- Learning method: Self-directed with AI assistance
-- Interests: Cryptography (CryptoHack), Mathematical problems, Quantum physics
+- Integration d'API: NowPayments, Telegram Bot
+- Methode d'apprentissage: autonome avec assistance IA
+- Interets: Cryptographie (CryptoHack), resolution de problemes mathematiques, physique quantique
 
-EXPERIENCE INTERNATIONALE & COMMUNAUTAIRE
-- 10+ countries traveled: USA, Canada, UK, Spain, Portugal, Belgium, Turkey, Morocco, Senegal, Mauritania
-- Languages: French (native), English (strong written, developing oral)
-- Community: Active in local & Mauritanian development associations
-- Content creation: Educational TikTok videos with viral engagement
+EXPERIENCE INTERNATIONALE ET COMMUNAUTAIRE
+- 10+ pays visites: USA, Canada, UK, Espagne, Portugal, Belgique, Turquie, Maroc, Senegal, Mauritanie
+- Langues: Francais (natif), Anglais (ecrit avance, oral en progression)
+- Communautaire: actif dans des associations locales et de developpement mauritanien
+- Creation de contenu: videos educatives sur TikTok avec engagement eleve
 
 EXPERIENCE
-- Early experience: Hospital internship (2019-2020) — patient assistance
+- Experience initiale: stage hospitalier (2019-2020) - assistance aux patients
 
 QUALITES PERSONNELLES
-- Learning agility: Quick adaptation to new tools and technologies
-- Problem-solving: Takes on technical challenges outside comfort zone
-- Discipline: Rigorous training schedule (5x/week running), painting hobby
+- Agilite d'apprentissage: adaptation rapide aux outils et technologies
+- Resolution de problemes: prise en charge de defis techniques hors zone de confort
+- Discipline: entrainement 5x/semaine, peinture
 
-MOTS-CLÉS (ATS)
-Python, JavaScript, SQL, Selenium, Automation, API Integration, Telegram Bot, NowPayments, Web Automation, Software Development, AI-assisted Learning, Technical Projects, International Exposure, Community Engagement, Cryptography (CryptoHack), Mathematical Problem Solving, Quantum Physics, Internship, Asia-Pacific
+MOTS-CLES (ATS)
+Python, JavaScript, SQL, Selenium, Automatisation, Integration d'API, Telegram Bot, NowPayments, Automatisation Web, Developpement Logiciel, Apprentissage assiste par IA, Projets Techniques, Ouverture Internationale, Engagement Communautaire, Cryptographie (CryptoHack), Resolution de Problemes, Physique Quantique, Stage, Asie-Pacifique
 
