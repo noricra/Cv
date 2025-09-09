@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Birante Soumaré — CV</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<style>
+		:root {
+			--accent: #0f766e;
+			--text: #111827;
+			--muted: #4b5563;
+			--rule: #e5e7eb;
+			--chip: #e6f4f1;
+		}
+
+		@page {
+			size: A4;
+			margin: 14mm 14mm 14mm 14mm;
+		}
+
+		html, body {
+			padding: 0;
+			margin: 0;
+			color: var(--text);
+			font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+			line-height: 1.35;
+			background: white;
+		}
+
+		.page {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 16px 8px 24px;
+		}
+
+		header {
+			display: grid;
+			grid-template-columns: 1fr auto;
+			gap: 8px 16px;
+			align-items: end;
+			padding-bottom: 8px;
+			border-bottom: 2px solid var(--rule);
+		}
+
+		h1 {
+			font-size: 28px;
+			line-height: 1.1;
+			margin: 0;
+			font-weight: 700;
+		}
+
+		.subtitle {
+			color: var(--muted);
+			font-weight: 500;
+			margin-top: 2px;
+		}
+
+		.right { display: grid; grid-template-rows: auto auto; justify-items: end; gap: 8px; }
+		.avatar { width: 84px; height: 84px; border-radius: 999px; background: #f3f4f6; border: 2px dashed var(--rule); color: var(--muted); display: grid; place-items: center; font-size: 11px; font-weight: 600; overflow: hidden; }
+		.avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+		.contact {
+			text-align: right;
+			font-size: 12px;
+			color: var(--muted);
+		}
+
+		.contact a { color: var(--muted); text-decoration: none; }
+
+		.section {
+			margin-top: 14px;
+		}
+
+		.section h2 {
+			font-size: 13px;
+			letter-spacing: 0.06em;
+			font-weight: 700;
+			color: var(--accent);
+			text-transform: uppercase;
+			margin: 0 0 6px 0;
+		}
+
+		.row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; }
+
+		.item { margin-bottom: 8px; }
+		.item h3 { font-size: 14px; margin: 0 0 2px; }
+		.item .meta { color: var(--muted); font-size: 12px; }
+		.item ul { margin: 4px 0 0 16px; padding: 0; }
+		.item li { margin: 2px 0; }
+
+		.chips { display: flex; gap: 6px; flex-wrap: wrap; }
+		.chip { background: var(--chip); color: var(--accent); padding: 3px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; }
+
+		.small { font-size: 12px; color: var(--muted); }
+
+		hr { border: none; border-top: 1px solid var(--rule); margin: 12px 0; }
+
+		@media print {
+			.page { max-width: none; padding: 0; }
+			.contact a[href]::after { content: ""; }
+			* { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+		}
+	</style>
+</head>
+<body>
+	<main class="page">
+		<header>
+			<div>
+				<h1>Birante Soumaré</h1>
+				<div class="subtitle">Étudiant en Informatique (L3) • Développeur en devenir</div>
+			</div>
+			<div class="right">
+				<figure class="avatar" aria-label="Photo">
+					<!-- Remplacez ce placeholder par votre photo : <img src="img/photo.jpg" alt="Portrait de Birante Soumaré" /> -->
+					PHOTO
+				</figure>
+				<div class="contact">
+					<div><strong>Email</strong> <a href="mailto:soumare.birante05@gmail.com">soumare.birante05@gmail.com</a></div>
+					<div><strong>Téléphone</strong> +33 6 44 75 60 28</div>
+					<div><strong>Localisation</strong> France • Ouvert à l'Asie-Pacifique</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="section">
+			<h2>Résumé professionnel</h2>
+			<div>
+				Étudiant en L3 informatique avec forte capacité d'apprentissage et projets concrets en automatisation Python, automatisation web (Selenium) et intégration d'API. Expérience de l'automatisation pour des workflows e-commerce et contribution à des initiatives communautaires. Recherche un stage international (3–6 mois) en développement logiciel, automatisation ou back-end.
+			</div>
+		</section>
+
+		<section class="section">
+			<h2>Formation</h2>
+			<div class="item">
+				<h3>Double Licence — Informatique (L3) & Mathématiques (L2)</h3>
+				<div class="meta">Université Paris-Est Créteil, France • 2023–2025</div>
+				<ul>
+					<li>Baccalauréat Mention Bien (2023)</li>
+					<li>Délégué de classe pendant 3 ans</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="section">
+			<h2>Compétences techniques</h2>
+			<div class="row">
+				<div>
+					<div class="small"><strong>Langages</strong></div>
+					<div class="chips">
+						<span class="chip">Python (bases)</span>
+						<span class="chip">JavaScript (fondamentaux)</span>
+						<span class="chip">SQL (bases)</span>
+					</div>
+				</div>
+				<div>
+					<div class="small"><strong>Outils</strong></div>
+					<div class="chips">
+						<span class="chip">Selenium</span>
+					</div>
+				</div>
+			</div>
+			<div class="small" style="margin-top:6px;">Centres d'intérêt : Cryptographie (CryptoHack), résolution de problèmes mathématiques, physique quantique • Méthode : autodidacte, assistée par IA</div>
+		</section>
+
+		<section class="section">
+			<h2>Projets</h2>
+			<div class="item">
+				<h3>Bot Telegram avec API de paiement — Automatisation de marketplace</h3>
+				<ul>
+					<li>Flux de paiement intégrés via l'API NowPayments</li>
+					<li>Commandes du bot et gestion d'état ; validation des callbacks</li>
+				</ul>
+			</div>
+			<div class="item">
+				<h3>Scripts d'automatisation Web et Email</h3>
+				<ul>
+					<li>Automatisation de tâches web et email avec Python et Selenium</li>
+					<li>Sélecteurs robustes et attentes explicites pour fiabilité</li>
+				</ul>
+			</div>
+			<div class="item">
+				<h3>Conception technique 3D pour projets communautaires</h3>
+				<ul>
+					<li>Plans de maison et schémas techniques pour des initiatives</li>
+					<li>Acquisition rapide de compétences 3D selon les besoins</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="section">
+			<h2>Expériences</h2>
+			<div class="item">
+				<h3>Commerce Digital</h3>
+				<div class="meta">2022–2024</div>
+				<ul>
+					<li>Utilisation d'outils d'automatisation pour la revente en ligne</li>
+					<li>Compréhension des workflows marketplace et e-commerce</li>
+				</ul>
+			</div>
+			<div class="item">
+				<h3>Stage précoce — CH Manhès</h3>
+				<div class="meta">2019–2020</div>
+				<ul>
+					<li>Assistance aux patients et support des opérations de l'établissement</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="section">
+			<h2>Engagement & communauté</h2>
+			<ul>
+				<li>Membre actif d'associations locales et mauritaniennes de développement</li>
+				<li>Schémas pour le financement de puits</li>
+				<li>Création de contenu : vidéos éducatives TikTok (engagement viral)</li>
+			</ul>
+		</section>
+
+		<section class="section">
+			<h2>International & langues</h2>
+			<div class="row">
+				<div>
+					<div class="small"><strong>International</strong></div>
+					<div>Voyages dans 10+ pays : USA, Canada, Royaume-Uni, Espagne, Portugal, Belgique, Turquie, Maroc, Sénégal, Mauritanie</div>
+				</div>
+				<div>
+					<div class="small"><strong>Langues</strong></div>
+					<div>Français : natif • Anglais : très bon à l'écrit, progression à l'oral</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<h2>Informations complémentaires</h2>
+			<ul>
+				<li>Coureur discipliné (5x/semaine) ; peinture en hobby</li>
+				<li>Disponibilité : stage 3–6 mois ; mobilité internationale (Singapour, Malaisie, Taïwan, Vietnam)</li>
+			</ul>
+		</section>
+	</main>
+</body>
+</html>
