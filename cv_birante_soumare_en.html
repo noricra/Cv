@@ -18,15 +18,16 @@
 
 		@page {
 			size: A4;
-			margin: 14mm 14mm 14mm 14mm;
+			margin: 12mm 12mm 12mm 12mm;
 		}
 
 		html, body {
 			padding: 0;
 			margin: 0;
+			font-size: 11px;
 			color: var(--text);
 			font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
-			line-height: 1.35;
+			line-height: 1.28;
 			background: white;
 		}
 
@@ -41,12 +42,12 @@
 			grid-template-columns: 1fr auto;
 			gap: 8px 16px;
 			align-items: end;
-			padding-bottom: 8px;
+			padding-bottom: 6px;
 			border-bottom: 2px solid var(--rule);
 		}
 
 		h1 {
-			font-size: 28px;
+			font-size: 22px;
 			line-height: 1.1;
 			margin: 0;
 			font-weight: 700;
@@ -71,7 +72,7 @@
 		.contact a { color: var(--muted); text-decoration: none; }
 
 		.section {
-			margin-top: 14px;
+			margin-top: 10px;
 		}
 
 		.section h2 {
@@ -80,16 +81,16 @@
 			font-weight: 700;
 			color: var(--accent);
 			text-transform: uppercase;
-			margin: 0 0 6px 0;
+			margin: 0 0 4px 0;
 		}
 
 		.row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; }
 
-		.item { margin-bottom: 8px; }
+		.item { margin-bottom: 6px; }
 		.item h3 { font-size: 14px; margin: 0 0 2px; }
 		.item .meta { color: var(--muted); font-size: 12px; }
 		.item ul { margin: 4px 0 0 16px; padding: 0; }
-		.item li { margin: 2px 0; }
+		.item li { margin: 1px 0; }
 
 		.chips { display: flex; gap: 6px; flex-wrap: wrap; }
 		.chip { background: var(--chip); color: var(--accent); padding: 3px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; }
@@ -110,36 +111,36 @@
 		<header>
 			<div>
 				<h1>Birante Soumare</h1>
-				<div class="subtitle">Computer Science Student (L3) • Aspiring Software Developer</div>
+				<div class="subtitle">Computer Science Student (L3) </div>
 			</div>
 			<div class="right">
 				<figure class="avatar" aria-label="Photo">
-					<!-- Replace this placeholder with your photo: <img src="img/photo.jpg" alt="Portrait of Birante Soumare" /> -->
-					PHOTO
+					<img src="img/photo.jpg" alt="Portrait of Birante Soumare" />
 				</figure>
 				<div class="contact">
 					<div><strong>Email</strong> <a href="mailto:soumare.birante05@gmail.com">soumare.birante05@gmail.com</a></div>
 					<div><strong>Phone</strong> +33 6 44 75 60 28</div>
 					<div><strong>Location</strong> France • Open to Asia-Pacific</div>
+					<div><strong>Portfolio</strong> birante.com</div>
 				</div>
 			</div>
 		</header>
 
 		<section class="section">
-			<h2>Professional Summary</h2>
+			<h2>Profil Summary</h2>
 			<div>
-				Computer science L3 student with strong learning agility and hands-on projects in Python automation, web automation (Selenium), and API integrations. Experience applying automation in e-commerce workflows and contributing to community initiatives. Seeking a 3–6 month international internship in software development, automation, or backend systems.
+				Computer Science L3 student with hands-on experience in Python and web automation (Selenium) and API integrations. Developed practical automation solutions for e-commerce workflows and community projects. Seeking a 3-4 month international internship in algorithm development, automation, or quantitative finance/fintech.
 			</div>
 		</section>
 
 		<section class="section">
 			<h2>Education</h2>
 			<div class="item">
-				<h3>Double Bachelor's Degree — Computer Science (L3) & Mathematics (L2)</h3>
-				<div class="meta">Université Paris-Est Créteil, France • 2023–2025</div>
+				<h3>Double Bachelor's Degree - Computer Science (L3) & Mathematics (L2)</h3>
+				<div class="meta">Université Paris-Est Créteil, France • 2023-2025</div>
 				<ul>
 					<li>High School Diploma with Honors (2023)</li>
-					<li>Class Representative for 3 years</li>
+					<li>Class Representative for 3 consecutive years in high school</li>
 				</ul>
 			</div>
 		</section>
@@ -150,35 +151,43 @@
 				<div>
 					<div class="small"><strong>Languages</strong></div>
 					<div class="chips">
-						<span class="chip">Python (foundations)</span>
-						<span class="chip">JavaScript (fundamentals)</span>
-						<span class="chip">SQL (basics)</span>
+						<span class="chip">Java </span>
+						<span class="chip">C </span>
+						<span class="chip">SQL </span>
+						<span class="chip">HTML </span>
+						<span class="chip">CSS </span>
+						<span class="chip">Python </span>
 					</div>
 				</div>
 				<div>
 					<div class="small"><strong>Tools</strong></div>
 					<div class="chips">
 						<span class="chip">Selenium</span>
+						<span class="chip">Telegram</span>
+						<span class="chip">VS Code</span>
+						<span class="chip">Linux</span>
+				
 					</div>
 				</div>
 			</div>
-			<div class="small" style="margin-top:6px;">Interests: Cryptography (CryptoHack), mathematical problem-solving, quantum physics • Learning: Self-directed, AI-assisted</div>
+			<div class="small" style="margin-top:6px;">Interests: Cryptography (CryptoHack), mathematical problems, quantum physics • Learning: Self-directed</div>
 		</section>
 
 		<section class="section">
 			<h2>Projects</h2>
 			<div class="item">
-				<h3>Telegram Bot with Payment API — Marketplace automation</h3>
+				<h3>Telegram Bot with NowPayment API - Marketplace automation</h3>
 				<ul>
-					<li>Implemented payment flows using the NowPayments API</li>
-					<li>Built bot commands and state handling; validated payment callbacks</li>
+					<li>Built a user registration and account management system with secure cryptocurrency payments</li>
+					<li>Created an admin dashboard for marketplace management and analytics</li>
 				</ul>
 			</div>
+
 			<div class="item">
 				<h3>Web and Email Automation Scripts</h3>
 				<ul>
-					<li>Automated routine web and email tasks with Python and Selenium</li>
-					<li>Implemented resilient selectors and waits to improve reliability</li>
+					<li>Automated online article ordering and account/email creation tasks</li>
+					<li>Implemented resilient selectors and fully hands-off execution</li>
 				</ul>
 			</div>
 			<div class="item">
@@ -193,16 +202,16 @@
 		<section class="section">
 			<h2>Experience</h2>
 			<div class="item">
-				<h3>Digital Commerce</h3>
-				<div class="meta">2022–2024</div>
+				<h3>E-Commerce Automation</h3>
+				<div class="meta">2022-2024</div>
 				<ul>
-					<li>Applied automation tools to support online resale operations</li>
-					<li>Developed practical understanding of marketplace and e-commerce workflows</li>
+					<li>Explored automation tools for monitoring product availability</li>
+					<li>Gained practical understanding of e-commerce workflows</li>
 				</ul>
 			</div>
 			<div class="item">
-				<h3>Early Internship — CH Manhès</h3>
-				<div class="meta">2019–2020</div>
+				<h3>Early Internship - CH Manhès</h3>
+				<div class="meta">2019-2020</div>
 				<ul>
 					<li>Assisted patients and supported facility operations in a hospital setting</li>
 				</ul>
@@ -214,7 +223,6 @@
 			<ul>
 				<li>Active member of local and Mauritanian development associations</li>
 				<li>Produced schematics for water well financing projects</li>
-				<li>Content creation: Educational TikTok videos with viral engagement</li>
 			</ul>
 		</section>
 
@@ -223,11 +231,11 @@
 			<div class="row">
 				<div>
 					<div class="small"><strong>International</strong></div>
-					<div>Travel to 10+ countries: USA, Canada, UK, Spain, Portugal, Belgium, Turkey, Morocco, Senegal, Mauritania</div>
+					<div>Travel to 10+ countries: USA, Canada,  Turkey, Morocco, Senegal and more</div>
 				</div>
 				<div>
 					<div class="small"><strong>Languages</strong></div>
-					<div>French: Native • English: Strong written, developing oral</div>
+					<div>French: Native<br> English: Competent written, Intermediate spoken English</div>
 				</div>
 			</div>
 		</section>
@@ -235,8 +243,8 @@
 		<section class="section">
 			<h2>Additional</h2>
 			<ul>
-				<li>Disciplined runner (5x/week); painting hobby</li>
-				<li>Availability: 3–6 month internship; internationally mobile (Singapore, Malaysia, Taiwan, Vietnam)</li>
+				<li>Disciplined runner (3x/week); hobby : painting</li>
+				<li>Availability: 3-4 month internship; internationally mobile (Singapore, Malaysia, Taiwan, Vietnam)</li>
 			</ul>
 		</section>
 	</main>

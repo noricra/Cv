@@ -18,15 +18,16 @@
 
 		@page {
 			size: A4;
-			margin: 14mm 14mm 14mm 14mm;
+			margin: 12mm 12mm 12mm 12mm;
 		}
 
 		html, body {
 			padding: 0;
 			margin: 0;
+			font-size: 11px;
 			color: var(--text);
 			font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
-			line-height: 1.35;
+			line-height: 1.28;
 			background: white;
 		}
 
@@ -41,12 +42,12 @@
 			grid-template-columns: 1fr auto;
 			gap: 8px 16px;
 			align-items: end;
-			padding-bottom: 8px;
+			padding-bottom: 6px;
 			border-bottom: 2px solid var(--rule);
 		}
 
 		h1 {
-			font-size: 28px;
+			font-size: 22px;
 			line-height: 1.1;
 			margin: 0;
 			font-weight: 700;
@@ -71,25 +72,25 @@
 		.contact a { color: var(--muted); text-decoration: none; }
 
 		.section {
-			margin-top: 14px;
+			margin-top: 10px;
 		}
 
 		.section h2 {
-			font-size: 13px;
+			font-size: 12px;
 			letter-spacing: 0.06em;
 			font-weight: 700;
 			color: var(--accent);
 			text-transform: uppercase;
-			margin: 0 0 6px 0;
+			margin: 0 0 4px 0;
 		}
 
 		.row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 16px; }
 
-		.item { margin-bottom: 8px; }
+		.item { margin-bottom: 6px; }
 		.item h3 { font-size: 14px; margin: 0 0 2px; }
 		.item .meta { color: var(--muted); font-size: 12px; }
 		.item ul { margin: 4px 0 0 16px; padding: 0; }
-		.item li { margin: 2px 0; }
+		.item li { margin: 1px 0; }
 
 		.chips { display: flex; gap: 6px; flex-wrap: wrap; }
 		.chip { background: var(--chip); color: var(--accent); padding: 3px 8px; border-radius: 999px; font-size: 12px; font-weight: 600; }
@@ -110,36 +111,36 @@
 		<header>
 			<div>
 				<h1>Birante Soumaré</h1>
-				<div class="subtitle">Étudiant en Informatique (L3) • Développeur en devenir</div>
+				<div class="subtitle">Étudiant en Informatique (L3) </div>
 			</div>
 			<div class="right">
 				<figure class="avatar" aria-label="Photo">
-					<!-- Remplacez ce placeholder par votre photo : <img src="img/photo.jpg" alt="Portrait de Birante Soumaré" /> -->
-					PHOTO
+					<img src="img/photo.jpg" alt="Portrait de Birante Soumaré" />
 				</figure>
 				<div class="contact">
 					<div><strong>Email</strong> <a href="mailto:soumare.birante05@gmail.com">soumare.birante05@gmail.com</a></div>
 					<div><strong>Téléphone</strong> +33 6 44 75 60 28</div>
 					<div><strong>Localisation</strong> France • Ouvert à l'Asie-Pacifique</div>
+					<div><strong>Portfolio</strong> birante.com</div>
 				</div>
 			</div>
 		</header>
 
 		<section class="section">
-			<h2>Résumé professionnel</h2>
+			<h2>Résumé profil</h2>
 			<div>
-				Étudiant en L3 informatique avec forte capacité d'apprentissage et projets concrets en automatisation Python, automatisation web (Selenium) et intégration d'API. Expérience de l'automatisation pour des workflows e-commerce et contribution à des initiatives communautaires. Recherche un stage international (3–6 mois) en développement logiciel, automatisation ou back-end.
+				Étudiant en informatique L3 avec expérience pratique en automatisation web (Selenium) et intégrations d’API. A développé des solutions d’automatisation pour des workflows e-commerce. Contributions à des projets communautaires. Recherche un stage international de 3-4 mois en développement d’algorithmes, automatisation ou finance/fintech quantitative.
 			</div>
 		</section>
 
 		<section class="section">
 			<h2>Formation</h2>
 			<div class="item">
-				<h3>Double Licence — Informatique (L3) & Mathématiques (L2)</h3>
-				<div class="meta">Université Paris-Est Créteil, France • 2023–2025</div>
+				<h3>Double Licence - Informatique (L3) & Mathématiques (L2)</h3>
+				<div class="meta">Université Paris-Est Créteil, France • 2023-2025</div>
 				<ul>
 					<li>Baccalauréat Mention Bien (2023)</li>
-					<li>Délégué de classe pendant 3 ans</li>
+					<li>Délégué de classe pendant 3 années consécutives au lycée</li>
 				</ul>
 			</div>
 		</section>
@@ -148,44 +149,52 @@
 			<h2>Compétences techniques</h2>
 			<div class="row">
 				<div>
-					<div class="small"><strong>Langages</strong></div>
+					<div class="small"><strong>Languages</strong></div>
 					<div class="chips">
-						<span class="chip">Python (bases)</span>
-						<span class="chip">JavaScript (fondamentaux)</span>
-						<span class="chip">SQL (bases)</span>
+						<span class="chip">Java </span>
+						<span class="chip">C </span>
+						<span class="chip">SQL </span>
+						<span class="chip">HTML </span>
+						<span class="chip">CSS </span>
+						<span class="chip">Python </span>
 					</div>
 				</div>
 				<div>
-					<div class="small"><strong>Outils</strong></div>
+					<div class="small"><strong>Tools</strong></div>
 					<div class="chips">
 						<span class="chip">Selenium</span>
+						<span class="chip">Telegram</span>
+						<span class="chip">VS Code</span>
+						<span class="chip">Linux</span>
+				
 					</div>
 				</div>
 			</div>
-			<div class="small" style="margin-top:6px;">Centres d'intérêt : Cryptographie (CryptoHack), résolution de problèmes mathématiques, physique quantique • Méthode : autodidacte, assistée par IA</div>
+			<div class="small" style="margin-top:6px;">Centres d'intérêt : Cryptographie (CryptoHack), problèmes mathématiques, physique quantique • Méthode : autodidacte</div>
 		</section>
 
 		<section class="section">
 			<h2>Projets</h2>
 			<div class="item">
-				<h3>Bot Telegram avec API de paiement — Automatisation de marketplace</h3>
+				<h3>Bot Telegram avec API de paiement - Automatisation de marketplace</h3>
 				<ul>
-					<li>Flux de paiement intégrés via l'API NowPayments</li>
-					<li>Commandes du bot et gestion d'état ; validation des callbacks</li>
+					<li>Conception d'une plateforme avec gestion utilisateur et intégration de paiements cryptomonnaie sécurisés</li>
+					<li>Développement d'un tableau de bord administrateur pour la gestion de la marketplace et les analytics</li>
+
 				</ul>
 			</div>
 			<div class="item">
 				<h3>Scripts d'automatisation Web et Email</h3>
 				<ul>
-					<li>Automatisation de tâches web et email avec Python et Selenium</li>
-					<li>Sélecteurs robustes et attentes explicites pour fiabilité</li>
+					<li>Automatisation de commandes en ligne et création de comptes/emails</li>
+					<li>Mise en place de sélecteurs robustes et d’attentes explicites pour fiabilité</li>
 				</ul>
 			</div>
 			<div class="item">
 				<h3>Conception technique 3D pour projets communautaires</h3>
 				<ul>
-					<li>Plans de maison et schémas techniques pour des initiatives</li>
-					<li>Acquisition rapide de compétences 3D selon les besoins</li>
+					<li>Réalisation de plans de maison et schémas pour projets communautaires</li>
+					<li>Acquisition rapide de compétences 3D selon les besoins du projet</li>
 				</ul>
 			</div>
 		</section>
@@ -193,16 +202,16 @@
 		<section class="section">
 			<h2>Expériences</h2>
 			<div class="item">
-				<h3>Commerce Digital</h3>
-				<div class="meta">2022–2024</div>
+				<h3>Automatisation E-Commerce</h3>
+				<div class="meta">2022-2024</div>
 				<ul>
-					<li>Utilisation d'outils d'automatisation pour la revente en ligne</li>
-					<li>Compréhension des workflows marketplace et e-commerce</li>
+					<li>Exploration d'outils d'automatisation pour le suivi de disponibilité produits</li>
+					<li>Acquisition d'une compréhension pratique des workflows e-commerce</li>
 				</ul>
 			</div>
 			<div class="item">
-				<h3>Stage précoce — CH Manhès</h3>
-				<div class="meta">2019–2020</div>
+				<h3>Stage précoce - CH Manhès</h3>
+				<div class="meta">2019-2020</div>
 				<ul>
 					<li>Assistance aux patients et support des opérations de l'établissement</li>
 				</ul>
@@ -214,7 +223,6 @@
 			<ul>
 				<li>Membre actif d'associations locales et mauritaniennes de développement</li>
 				<li>Schémas pour le financement de puits</li>
-				<li>Création de contenu : vidéos éducatives TikTok (engagement viral)</li>
 			</ul>
 		</section>
 
@@ -223,11 +231,11 @@
 			<div class="row">
 				<div>
 					<div class="small"><strong>International</strong></div>
-					<div>Voyages dans 10+ pays : USA, Canada, Royaume-Uni, Espagne, Portugal, Belgique, Turquie, Maroc, Sénégal, Mauritanie</div>
+					<div>Voyage à travers 10+ pays: USA, Portugal,  Belgique, Royaume-Uni , Mauritanie et plus</div>
 				</div>
 				<div>
 					<div class="small"><strong>Langues</strong></div>
-					<div>Français : natif • Anglais : très bon à l'écrit, progression à l'oral</div>
+					<div>Français : Natif <br> Anglais : Bon à l'écrit, progression à l'oral</div>
 				</div>
 			</div>
 		</section>
@@ -235,8 +243,8 @@
 		<section class="section">
 			<h2>Informations complémentaires</h2>
 			<ul>
-				<li>Coureur discipliné (5x/semaine) ; peinture en hobby</li>
-				<li>Disponibilité : stage 3–6 mois ; mobilité internationale (Singapour, Malaisie, Taïwan, Vietnam)</li>
+				<li>Coureur discipliné (3x/semaine); hobby : peinture</li>
+				<li>Disponibilité : stage 3-4 mois ; mobilité internationale (Singapour, Malaisie, Taïwan, Vietnam)</li>
 			</ul>
 		</section>
 	</main>
